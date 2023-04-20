@@ -28,7 +28,7 @@ body::-webkit-scrollbar{
 #home .icons-1{
     margin: 0 170px;
 }
-#home .icons-1{
+#home .icons-1 a{
     text-decoration: none;
 }
 #home .icons-1 a i{
