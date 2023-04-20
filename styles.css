@@ -9,7 +9,7 @@
     --low-font-weight: 100;
 }
 body{
-    background-image: url(/images/header.jpg);
+    background-image: url(/ images/header.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -872,7 +872,7 @@ body::-webkit-scrollbar{
     font-size: 0.9em;
 }
 #portfolio .box .gridbox .gridbox-1 .img-1{
-    background-image: url(./images/web-1.jpg);
+    background-image: url(/images/web-1.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
@@ -885,7 +885,7 @@ body::-webkit-scrollbar{
     display: block;
 }
 #portfolio .box .gridbox .gridbox-1 .img-2{
-    background-image: url(./images/branding-1.jpg);
+    background-image: url(/images/branding-1.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
@@ -898,7 +898,7 @@ body::-webkit-scrollbar{
     display: block;
 }
 #portfolio .box .gridbox .gridbox-2 .img-3{
-    background-image: url(./images/web-2.jpg);
+    background-image: url(/images/web-2.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
@@ -911,7 +911,7 @@ body::-webkit-scrollbar{
     display: block;
 }
 #portfolio .box .gridbox .gridbox-2 .img-4{
-    background-image: url(./images/advertising-3.jpg);
+    background-image: url(/images/advertising-3.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
@@ -925,7 +925,7 @@ body::-webkit-scrollbar{
     display: block;
 }
 #portfolio .box .gridbox .gridbox-2 .img-5{
-    background-image: url(./images/branding-3.jpg);
+    background-image: url(/images/branding-3.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
@@ -939,7 +939,7 @@ body::-webkit-scrollbar{
     display: block;
 }
 #portfolio .box .gridbox .gridbox-3 .img-6{
-    background-image: url(./images/advertising-2.jpg);
+    background-image: url(/images/advertising-2.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
@@ -953,7 +953,7 @@ body::-webkit-scrollbar{
     display: block;
 }
 #portfolio .box .gridbox .gridbox-3 .img-7{
-    background-image: url(./images/web-3.jpg);
+    background-image: url(/images/web-3.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
@@ -967,7 +967,7 @@ body::-webkit-scrollbar{
     display: block;
 }
 #portfolio .box .gridbox .gridbox-3 .img-8{
-    background-image: url(./images/advertising-4.jpg);
+    background-image: url(/images/advertising-4.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
@@ -1653,7 +1653,7 @@ body::-webkit-scrollbar{
     display: block;
 }
 #portfolio .box .gridbox .gridbox-1 .img-2{
-    background-image: url(./images/branding-1.jpg);
+    background-image: url(/images/branding-1.jpg);
     background-repeat: no-repeat;
     /* background-attachment: scroll; */
     background-size: cover;
@@ -1667,7 +1667,7 @@ body::-webkit-scrollbar{
     display: block;
 }
 #portfolio .box .gridbox .gridbox-2 .img-3{
-    background-image: url(./images/web-2.jpg);
+    background-image: url(/images/web-2.jpg);
     background-repeat: no-repeat;
     /* background-attachment: scroll; */
     background-size: cover;
@@ -1681,7 +1681,7 @@ body::-webkit-scrollbar{
     display: block;
 }
 #portfolio .box .gridbox .gridbox-2 .img-4{
-    background-image: url(./images/advertising-3.jpg);
+    background-image: url(/images/advertising-3.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
@@ -1696,7 +1696,7 @@ body::-webkit-scrollbar{
     display: block;
 }
 #portfolio .box .gridbox .gridbox-2 .img-5{
-    background-image: url(./images/branding-3.jpg);
+    background-image: url(/images/branding-3.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
@@ -1710,7 +1710,7 @@ body::-webkit-scrollbar{
     display: block;
 }
 #portfolio .box .gridbox .gridbox-3 .img-6{
-    background-image: url(./images/advertising-2.jpg);
+    background-image: url(/images/advertising-2.jpg);
     background-repeat: no-repeat;
     /* background-attachment: scroll; */
     background-size: cover;
@@ -1723,7 +1723,7 @@ body::-webkit-scrollbar{
     display: block;
 }
 #portfolio .box .gridbox .gridbox-3 .img-7{
-    background-image: url(./images/web-3.jpg);
+    background-image: url(/images/web-3.jpg);
     background-repeat: no-repeat;
     /* background-attachment: scrol l; */
     background-size: cover;
@@ -1737,7 +1737,7 @@ body::-webkit-scrollbar{
     display: block;
 }
 #portfolio .box .gridbox .gridbox-3 .img-8{
-    background-image: url(./images/advertising-4.jpg);
+    background-image: url(/images/advertising-4.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
