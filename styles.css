@@ -78,10 +78,11 @@ body::-webkit-scrollbar{
     font-size: 1.0em;
     padding: 11px;
     border-radius: 100px;
-    width: 12%;
+    min-width: 12%;
+    max-width: 15%;
+
     /* width: auto; */
     height: 45px;
-    max-height: 65px;
     height: auto;
     margin: 40px 0;
     /* overflow: hidden; */
@@ -118,6 +119,7 @@ body::-webkit-scrollbar{
     position: sticky;
     top: 0;
     z-index: 10;
+    display: block;
 }
 .menu-font{
     border: none;
@@ -1282,6 +1284,9 @@ body::-webkit-scrollbar{
     color: var(--normal-colour);
 }
 @media screen and (max-width: 992px) {
+    #home{
+        height: 100vh;
+    }
     #home .words .print{
         font-weight: var(--low-font-weight);
         font-family: var(--normal-font-family);
@@ -1296,18 +1301,19 @@ body::-webkit-scrollbar{
         max-width: 50%;
         width: auto;
         height: 45px;
-        /* max-height: 65px;
-        height: auto; */
-        margin: 40px 0;
-        /* overflow: hidden; */
-        /* height: 40px; */
         text-align: center;
         animation: print 1s;
+        margin-bottom: 20px;
     }
-    
     #nav{
         min-height: 300px;
         height: auto;
+        display: block;
+        width: 100%;
+        height: auto;
+        background-color: white;
+        position: relative;
+        /* margin-top: 10px; */
     }
     #nav img{
         display: none;
@@ -1315,7 +1321,7 @@ body::-webkit-scrollbar{
     .nav-menu-icon{
         display: none;
         background-color: white;
-        height: 42px;
+        height: 2px;
         width: 100%;
     }
     .menu-font{
@@ -1333,14 +1339,6 @@ body::-webkit-scrollbar{
     .nav-menu-icon:hover nav{
         display: block;
         background: red;
-    }
-    #nav{
-        display: none;
-        width: 100%;
-        max-height: 40px;
-        height: auto;
-        background-color: white;
-        position: relative;
     }
     nav a:hover nav ul li{
         display: block;
@@ -1545,6 +1543,23 @@ body::-webkit-scrollbar{
     #home .words h1{
         font-size: 3.8em;
     }
+    #home .words .print{
+        font-weight: var(--low-font-weight);
+        font-family: var(--normal-font-family);
+        display: block;
+        background-color: var(--normal-colour);
+        text-decoration: none;
+        color: white;
+        font-size: 1.0em;
+        padding: 11px;
+        border-radius: 100px;
+        min-width: 12%;
+        max-width: 70%;
+        width: auto;
+        height: 45px;
+        text-align: center;
+        animation: print 1s;
+    }
     #resume #resume-footer{
         flex-direction: column;
     }
@@ -1595,15 +1610,15 @@ body::-webkit-scrollbar{
     position: relative;
     top: 100px;
 }
-#portfolio .box h1{
+    #portfolio .box h1{
     color: black;
     font-weight: 500;
     font-size: 2.4em;
 }
-#portfolio .box h1 span{
+    #portfolio .box h1 span{
     color: var(--normal-colour);
 }
-#portfolio .box .gridbox{
+    #portfolio .box .gridbox{
     display: flex;
     flex-direction: column;
     margin-top: 90px;
@@ -1611,15 +1626,15 @@ body::-webkit-scrollbar{
     height: 865px;
     /* border: 1px solid red; */
 }
-#portfolio .box .gridbox .gridbox-1, .gridbox-2, .gridbox-3{
+    #portfolio .box .gridbox .gridbox-1, .gridbox-2, .gridbox-3{
     height: 100%;
     width: 100%;
     /* border: 1px solid gray; */
 }
-#portfolio .box .gridbox .gridbox-1, .gridbox-2{
+    #portfolio .box .gridbox .gridbox-1, .gridbox-2{
     margin: 0 2% 0 0;
 }
-#portfolio .box .gridbox .content{
+    #portfolio .box .gridbox .content{
     display: none;
     height: 100%;
     width: 100%;
@@ -1628,19 +1643,19 @@ body::-webkit-scrollbar{
     opacity: 0.7;
     /* transition: all 2s; */
 }
-#portfolio .box .gridbox .content h1{
+    #portfolio .box .gridbox .content h1{
     color: white;
     font-family: var(--normal-font-family);
     font-size: 1.4em;
     /* padding-top: 200px; */
 }
-#portfolio .box .gridbox .content p{
+    #portfolio .box .gridbox .content p{
     color: white;
     font-family: var(--normal-font-family);
     font-size: 0.9em;
 }
-#portfolio .box .gridbox .gridbox-1 .img-1{
-    background-image: url(./images/web-1.jpg);
+    #portfolio .box .gridbox .gridbox-1 .img-1{
+    background-image: url(images/web-1.jpg);
     background-repeat: no-repeat;
     /* background-attachment: scroll; */
     background-size: cover;
@@ -1649,10 +1664,10 @@ body::-webkit-scrollbar{
     border-radius: 5px;
     /* margin: 0 0 10% 0; */
 }
-#portfolio .box .gridbox .gridbox-1 .img-1:hover .content{
+    #portfolio .box .gridbox .gridbox-1 .img-1:hover .content{
     display: block;
 }
-#portfolio .box .gridbox .gridbox-1 .img-2{
+    #portfolio .box .gridbox .gridbox-1 .img-2{
     background-image: url(images/branding-1.jpg);
     background-repeat: no-repeat;
     /* background-attachment: scroll; */
@@ -1663,10 +1678,10 @@ body::-webkit-scrollbar{
     border-radius: 5px;
     /* margin-top: 500px; */
 }
-#portfolio .box .gridbox .gridbox-1 .img-2:hover .content{
+    #portfolio .box .gridbox .gridbox-1 .img-2:hover .content{
     display: block;
 }
-#portfolio .box .gridbox .gridbox-2 .img-3{
+    #portfolio .box .gridbox .gridbox-2 .img-3{
     background-image: url(images/web-2.jpg);
     background-repeat: no-repeat;
     /* background-attachment: scroll; */
@@ -1677,10 +1692,10 @@ body::-webkit-scrollbar{
     border-radius: 5px;
     margin-top: 250px;
 }
-#portfolio .box .gridbox .gridbox-2 .img-3:hover .content{
+    #portfolio .box .gridbox .gridbox-2 .img-3:hover .content{
     display: block;
 }
-#portfolio .box .gridbox .gridbox-2 .img-4{
+    #portfolio .box .gridbox .gridbox-2 .img-4{
     background-image: url(images/advertising-3.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -1692,10 +1707,10 @@ body::-webkit-scrollbar{
     margin: 10% 0 0 0;
     margin-top: 50px;
 }
-#portfolio .box .gridbox .gridbox-2 .img-4:hover .content{
+    #portfolio .box .gridbox .gridbox-2 .img-4:hover .content{
     display: block;
 }
-#portfolio .box .gridbox .gridbox-2 .img-5{
+    #portfolio .box .gridbox .gridbox-2 .img-5{
     background-image: url(images/branding-3.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -1706,10 +1721,10 @@ body::-webkit-scrollbar{
     border-radius: 5px;
     margin: 10% 0 0 0;
 }
-#portfolio .box .gridbox .gridbox-2 .img-5:hover .content{
+    #portfolio .box .gridbox .gridbox-2 .img-5:hover .content{
     display: block;
 }
-#portfolio .box .gridbox .gridbox-3 .img-6{
+    #portfolio .box .gridbox .gridbox-3 .img-6{
     background-image: url(images/advertising-2.jpg);
     background-repeat: no-repeat;
     /* background-attachment: scroll; */
@@ -1719,10 +1734,10 @@ body::-webkit-scrollbar{
     width: 100%;
     border-radius: 5px;
 }
-#portfolio .box .gridbox .gridbox-3 .img-6:hover .content{
+    #portfolio .box .gridbox .gridbox-3 .img-6:hover .content{
     display: block;
 }
-#portfolio .box .gridbox .gridbox-3 .img-7{
+    #portfolio .box .gridbox .gridbox-3 .img-7{
     background-image: url(images/web-3.jpg);
     background-repeat: no-repeat;
     /* background-attachment: scrol l; */
@@ -1733,10 +1748,10 @@ body::-webkit-scrollbar{
     border-radius: 5px;
     margin: 0 0 4% 0;
 }
-#portfolio .box .gridbox .gridbox-3 .img-7:hover .content{
+    #portfolio .box .gridbox .gridbox-3 .img-7:hover .content{
     display: block;
 }
-#portfolio .box .gridbox .gridbox-3 .img-8{
+    #portfolio .box .gridbox .gridbox-3 .img-8{
     background-image: url(images/advertising-4.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -1747,10 +1762,10 @@ body::-webkit-scrollbar{
     border-radius: 5px;
     /* margin: 0 0 2% 0; */
 }
-#portfolio .box .gridbox .gridbox-3 .img-8:hover .content{
+    #portfolio .box .gridbox .gridbox-3 .img-8:hover .content{
     display: block;
 }
-#blog .margin{
+    #blog .margin{
     width: 100%;
     height: 2500px;
 }
