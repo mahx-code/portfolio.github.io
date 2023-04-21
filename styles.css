@@ -84,7 +84,7 @@ body::-webkit-scrollbar{
     /* width: auto; */
     height: 45px;
     height: auto;
-    margin: 40px 0;
+    margin: 20px 0;
     /* overflow: hidden; */
     /* height: 40px; */
     text-align: center;
@@ -592,8 +592,7 @@ body::-webkit-scrollbar{
 }
 #resume #services .box{
     height: 68%;
-    min-width: 70%;
-    width: auto;
+    width: 70%;
     margin: 40px auto;
     /* border: 1px double red; */
 } 
@@ -1582,6 +1581,10 @@ body::-webkit-scrollbar{
     }
     #resume #services .box .flexbox-1, .flexbox-2{
         flex-direction: column;
+    }
+    #resume #services{
+        min-width: 70%;
+        width: auto;
     }
     #resume fieldset{
         margin: 15px auto;
