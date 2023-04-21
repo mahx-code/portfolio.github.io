@@ -592,7 +592,8 @@ body::-webkit-scrollbar{
 }
 #resume #services .box{
     height: 68%;
-    width: 70%;
+    min-width: 70%;
+    width: auto;
     margin: 40px auto;
     /* border: 1px double red; */
 } 
@@ -1578,6 +1579,12 @@ body::-webkit-scrollbar{
     }
     #resume #resume-footer{
         min-height: 565px;
+    }
+    #resume #services .box .flexbox-1, .flexbox-2{
+        flex-direction: column;
+    }
+    #resume fieldset{
+        margin: 15px auto;
     }
     #pack-pricing .flexboxes{
         flex-direction: column;
